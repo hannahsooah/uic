@@ -2393,6 +2393,10 @@ a.close.disabled {
   background-color: rgba(41, 54, 70, 1);
 }
 
+.bg-test {
+  background-color: rgba(159, 166, 173, 1);
+}
+
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
