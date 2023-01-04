@@ -1401,6 +1401,17 @@ pre code {
     flex: 0 0 50%;
     max-width: 50%;
   }
+
+  .org {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+    border-style: solid;
+    border-color: rgba(156, 159, 165, 1) !important;
+    background-color: rgba(231, 222, 218, 1);
+  }
   .col-lg-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.33333%;
@@ -7069,6 +7080,10 @@ button.bg-primary:focus {
     background: rgba(72, 89, 106, 1) !important;
 }
 
+.bg-muted {
+    background: rgba(72, 89, 106, .5) !important;
+}
+
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
@@ -7083,6 +7098,10 @@ a.bg-split:hover, a.bg-split:focus,
 button.bg-split:hover,
 button.bg-split:focus {
   background-color: #ee3e0d !important;
+}
+
+.bg-tertiary {
+    background: rgba(201, 194, 191, 1) !important;
 }
 
 .bg-success {
@@ -8734,6 +8753,16 @@ button.bg-dark:focus {
 .ml-med,
 .mx-med {
   margin-left: -4rem !important;
+}
+
+.mt-lg,
+.my-lg {
+  margin-top: 10rem !important;
+}
+
+.mb-lg,
+.mx-lg {
+  margin-bottom: 10rem !important;
 }
 
 .mr-neg,
@@ -10652,6 +10681,17 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-white-50 {
   color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.text-org {
+  color: rgba(83, 96, 110, 1) !important;
+  text-decoration: underline;
+  font-family: "Hind";
+}
+
+.text-org-description {
+  color: rgba(83, 96, 110, 1) !important;
+  font-family: "Hind";
 }
 
 .text-white-20 {
