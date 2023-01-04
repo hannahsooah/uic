@@ -710,6 +710,7 @@ pre code {
 
 .yellow-shadow {
   margin-left: 0.5rem !important;
+  margin-right: 20% !important;
   border-radius:.5rem!important;
   box-shadow: 15px 10px 5px 5px rgba(0, 0, 0, .4);
   background-color: rgba(195, 155, 96, 1);
@@ -2374,6 +2375,10 @@ a.close.disabled {
 
 .bg-muted {
     background: rgba(72, 89, 106, .5) !important;
+}
+
+.bg-dark {
+    background: rgba(72, 89, 106, 1) !important;
 }
 
 .bg-split {
@@ -5026,6 +5031,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .text-white-hind {
   color: rgba(255, 255, 255, 0.7) !important;
+  font-family: "Hind";
+  line-height: 3;
+}
+
+.text-transparent {
+  color: transparent !important;
   font-family: "Hind";
   line-height: 3;
 }
