@@ -709,6 +709,7 @@ pre code {
 }
 
 .yellow-shadow {
+  margin-left: 0.5rem !important;
   border-radius:.5rem!important;
   box-shadow: 15px 10px 5px 5px rgba(0, 0, 0, .4);
   background-color: rgba(195, 155, 96, 1);
@@ -880,6 +881,7 @@ pre code {
 .org {
   margin-left: 0.5rem !important;
   margin-right: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
   padding: 15px;
   border-style: solid;
   border-color: rgba(156, 159, 165, 1) !important;
