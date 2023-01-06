@@ -889,6 +889,16 @@ pre code {
   background-color: rgba(231, 222, 218, 1);
 }
 
+.norg {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  padding: 15px;
+  border-style: solid;
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+
 .z-1 {
   z-index: 1;
 }
