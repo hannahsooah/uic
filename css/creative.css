@@ -140,7 +140,7 @@ body {
   font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* probably change font somewhere else but for now */
   font-family: sans-serif;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -925,7 +925,7 @@ pre code {
   flex: 0 0 80%;
   max-width: 80%;
   border-radius:.1rem!important;
-  background-color: rgba(216, 223, 225, .3);
+  background-color: rgba(200, 200, 200, .7);
   padding: 15px;
 }
 .sof-verse {
@@ -934,7 +934,7 @@ pre code {
   flex: 0 0 60%;
   max-width: 60%;
   border-radius:.1rem!important;
-  background-color: rgba(211, 188, 153, 1);
+  background-color: rgba(195, 155, 96, 1);
   padding: 15px;
 }
 .sof-text {
@@ -3151,6 +3151,10 @@ button.bg-dark:focus {
 .mx-5 {
   margin-left: 3rem !important;
 }
+.ml-lg,
+.mx-lg {
+  margin-left: 27% !important;
+}
 
 .p-0 {
   padding: 0 !important;
@@ -5008,7 +5012,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #343a40 !important;
+  color: rgba(83, 96, 110, 1) !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
@@ -5047,6 +5051,11 @@ a.text-dark:hover, a.text-dark:focus {
   color: rgba(255, 255, 255, 0.7) !important;
   font-family: "Hind";
   line-height: 3;
+}
+
+.text-white-2 {
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-family: "Hind";
 }
 
 .text-transparent {
@@ -5211,6 +5220,14 @@ hr.light {
 
 .page-section {
   padding: 6rem 0;
+}
+
+.page-section-no-pb {
+  padding: 6rem 0 0 0;
+}
+
+.page-section-no-pad {
+  padding: 0 0 0 0;
 }
 
 header.masthead {
