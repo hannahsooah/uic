@@ -239,13 +239,13 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: rgba(28, 32, 37, 1) !important;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #d6370c;
+  color: rgba(83, 96, 110, 1) !important;
   text-decoration: underline;
 }
 
@@ -5015,6 +5015,10 @@ a.text-light:hover, a.text-light:focus {
   color: rgba(83, 96, 110, 1) !important;
 }
 
+.text-darker {
+  color: rgba(28, 32, 37, 1) !important;
+}
+
 a.text-dark:hover, a.text-dark:focus {
   color: #121416 !important;
 }
@@ -5029,7 +5033,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-org {
   color: rgba(83, 96, 110, 1) !important;
-  text-decoration: underline;
   font-family: "Hind";
 }
 
