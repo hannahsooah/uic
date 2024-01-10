@@ -1,4 +1,4 @@
-to push changes to OCF (and reflect them onto our prod website):
+to push changes to OCF (and reflect them onto the prod website):
 
 ```shell
 # ssh into uic's ocf server
