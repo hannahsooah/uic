@@ -1,4 +1,4 @@
-# uic
+# UiC
 
 Unity In Christ is UC Berkeley’s Christian inter-fellowship group.
 
@@ -13,6 +13,9 @@ Christ.
 
 You can find out more about us at the deployment of this website at
 [https://uic.berkeley.edu/](https://uic.berkeley.edu/).
+
+## Contact
+Feel free to contact hannahso@berkeley.edu with feedback about the website.
 
 ## Copyright and License
 Copyright (c) 2023-2024 Hannah Oh
